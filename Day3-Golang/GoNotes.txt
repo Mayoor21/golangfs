@@ -1,0 +1,25 @@
+to check if go is installed
+    go version
+
+running a go program
+    go run file.go
+
+All go source files should brin.go
+
+    Basic syntax:
+        package packagename(main)
+        import "fmt" ;->Single import
+
+import(
+    "fmt"
+)->for multiple imports
+
+
+creating a go project
+run: go mod init ProjectName
+        =>it creates the go.mod file which will handle the dependencies
+
+to install any external libraries we use go install command
+
+to install gin-goninc frame work
+go get github.com/gin-gonic/gin@latest
